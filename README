@@ -1,0 +1,19 @@
+プロジェクトの名称
+ JniTest
+
+作者
+ taktod
+ https://twitter.com/taktod
+ poepoemix@hotmail.com
+
+使い方
+$ ./configure --prefix=適当な出力先
+$ make
+$ make install
+
+Main.javaのプログラムをSystem.loadの引数を先ほど作成して、testのライブラリに変更する。
+で、実行すると
+
+start
+Hello ←この部分がJni由来
+と出力される。
