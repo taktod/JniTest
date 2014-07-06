@@ -1,1 +1,3 @@
-SUBDIRS=csrc
+ACLOCAL_AMFLAGS = -I m4
+
+SUBDIRS=jni
